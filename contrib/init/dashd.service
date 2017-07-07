@@ -1,0 +1,22 @@
+[Unit]
+Description=MonetaryUnit's distributed currency daemon
+After=network.target
+
+[Service]
+User=sktcore
+Group=sktcore
+
+Type=forking
+PIDFile=/var/lib/sktd/sktd.pid
+ExecStart=/usr/bin/sktd -daemon -pid=/var/lib/sktd/sktd.pid \
+-conf=/etc/sktcore/skt.conf -datadir=/var/lib/sktd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

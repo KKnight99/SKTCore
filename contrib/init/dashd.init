@@ -1,0 +1,67 @@
+#!/bin/bash
+#
+#  sktd The MonetaryUnit Core server.
+#
+#
+# chkconfig: 345 80 20
+# description: sktd
+# processname: sktd
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+# you can override defaults in /etc/sysconfig/sktd, see below
+if [ -f /etc/sysconfig/sktd ]; then
+        . /etc/sysconfig/sktd
+fi
+
+RETVAL=0
+
+prog=sktd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/sktd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/sktd}
+
+# sktd defaults to /usr/bin/sktd, override with BITCOIND_BIN
+sktd=${BITCOIND_BIN-/usr/bin/sktd}
+
+# sktd opts default to -disablewallet, override with BITCOIND_OPTS
+sktd_opts=${BITCOIND_OPTS--disablewallet}
+
+start() {
+    echo -n $"Starting $prog: "
+    daemon $DAEMONOPTS $sktd $sktd_opts
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && touch $lockfile
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && rm -f $lockfile
+    return $RETVAL
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $prog
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: service $prog {start|stop|status|restart}"
+        exit 1
+        ;;
+esac
