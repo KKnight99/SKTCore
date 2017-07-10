@@ -122,7 +122,7 @@ public:
 		assert(genesis.hashMerkleRoot == uint256S("0x035340302126648f241f089a37aab7384014eef9f5fd0dffc1c4dcacae97cb39"));
 		assert(consensus.hashGenesisBlock == uint256S("0x00000a867c51c481819d51fbb38bb48e38dd0f0312530410f1ffb9c46022242b"));
 
-		vSeeds.push_back(CDNSSeedData("www.superskynet.com", "47.52.45.101"));
+		vSeeds.push_back(CDNSSeedData("www.superskynet.org", "47.52.45.101"));
 
         // SKT addresses start with '7'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,16);
