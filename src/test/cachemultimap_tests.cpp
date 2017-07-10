@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The MonetaryUnit Core developers
+// Copyright (c) 2014-2017 The SKT Core developers
 
 #include "cachemultimap.h"
 

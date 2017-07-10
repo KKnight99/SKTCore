@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "MonetaryUnit"
-            VALUE "FileDescription",    "mue-tx (CLI MonetaryUnit transaction editor utility)"
+            VALUE "CompanyName",        "SKT"
+            VALUE "FileDescription",    "skt-tx (CLI SKT transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "mue-tx"
+            VALUE "InternalName",       "skt-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "mue-tx.exe"
-            VALUE "ProductName",        "mue-tx"
+            VALUE "OriginalFilename",   "skt-tx.exe"
+            VALUE "ProductName",        "skt-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

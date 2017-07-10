@@ -84,7 +84,7 @@ libconftest.dylib*
 *.qm
 Makefile
 skt-qt
-MonetaryUnit-Qt.app
+SKT-Qt.app
 
 # Unit-tests
 Makefile.test

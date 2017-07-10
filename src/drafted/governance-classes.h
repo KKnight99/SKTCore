@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The MonetaryUnit Core developers
+// Copyright (c) 2014-2017 The SKT Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -45,7 +45,7 @@
  * =========================
  *
  *   // network
- *   CMonetaryUnitNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CSKTNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -130,7 +130,7 @@ public:
 };
 
 // // root node
-class CMonetaryUnitNetwork : public CGovernanceObject
+class CSKTNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -138,7 +138,7 @@ private:
 
 
 public:
-    CMonetaryUnitNetwork(UniValue objIn)
+    CSKTNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -174,9 +174,9 @@ public:
 
 };
 
-// // can be under: MonetaryUnitNetwork
+// // can be under: SKTNetwork
 // //   -- signature requirements : Key1(User)
-// class CMonetaryUnitNetworkVariable : public CGovernanceObject
+// class CSKTNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -279,7 +279,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == MonetaryUnitNetwork);
+//     //     return (IsType() == SKTNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

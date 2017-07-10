@@ -29,7 +29,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the MonetaryUnit Qt UI.
+/** Utility functions used by the SKT Qt UI.
  */
 namespace GUIUtil
 {

@@ -1,12 +1,14 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2014-2017 The MonetaryUnit Core developers
+// Copyright (c) 2014-2017 The SKT Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "chainparams.h"
 #include "consensus/merkle.h"
+#include "arith_uint256.h"
+#include "hash.h"
 
 #include "tinyformat.h"
 #include "util.h"
@@ -46,8 +48,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
 
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "07/07/2017 respn to trump the Castro gov said Trump's US is in no condition to lecture us";
-    const CScript genesisOutputScript = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
+    const char* pszTimestamp = "10/07/2017 respn to trump the Castro gov said Trump's US is in no condition to lecture us";
+    const CScript genesisOutputScript = CScript() << ParseHex("12348afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -115,26 +117,26 @@ public:
 		nPruneAfterHeight = 100000;
 
 
-		genesis = CreateGenesisBlock(1499434230, 932796, 0x1e0ffff0, 1, 50 * COIN);
-		consensus.hashGenesisBlock = genesis.GetHash();
-		assert(consensus.hashGenesisBlock == uint256S("0x"));
-		assert(genesis.hashMerkleRoot == uint256S("0x"));
+		genesis = CreateGenesisBlock(1499650125, 69730, 0x1e0ffff0, 1, 50 * COIN);
+		consensus.hashGenesisBlock = genesis.GetHash();	
+		assert(genesis.hashMerkleRoot == uint256S("0x035340302126648f241f089a37aab7384014eef9f5fd0dffc1c4dcacae97cb39"));
+		assert(consensus.hashGenesisBlock == uint256S("0x00000a867c51c481819d51fbb38bb48e38dd0f0312530410f1ffb9c46022242b"));
 
-		vSeeds.push_back(CDNSSeedData("nodes.myskt.com","nodes.myskt.com"));
+		vSeeds.push_back(CDNSSeedData("www.superskynet.com", "47.52.45.101"));
 
-        // MonetaryUnit addresses start with '7'
+        // SKT addresses start with '7'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,16);
-        // MonetaryUnit script addresses start with 'X'
+        // SKT script addresses start with 'X'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,76);
-        // MonetaryUnit private keys start with 's' or 't'
+        // SKT private keys start with 's' or 't'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,126);
 
-        // MonetaryUnit BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // SKT BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // MonetaryUnit BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // SKT BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        // MonetaryUnit BIP44 coin type is '5' <== Should be migrated to 31 SLIP-44 MonetaryUnit
+        // SKT BIP44 coin type is '5' <== Should be migrated to 31 SLIP-44 SKT
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x05).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
@@ -152,10 +154,10 @@ public:
 
         checkpointData = (CCheckpointData) {
                 boost::assign::map_list_of
-                (0, uint256S("0x")),
-                1498541029,
-                       197,   //   (the tx=... number in the SetBestChain debug.log lines)
-                      2160    // * estimated number of transactions per day after checkpoint
+                (0, uint256S("0x00000a867c51c481819d51fbb38bb48e38dd0f0312530410f1ffb9c46022242b")),
+                //1498541029,
+                //       197,   //   (the tx=... number in the SetBestChain debug.log lines)
+                //      2160    // * estimated number of transactions per day after checkpoint
        };
     }
 };
@@ -215,34 +217,30 @@ public:
         nMaxTipAge = 0x7fffffff;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1498253504, 879253, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1499650125, 69730, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000c4e1485ee323e0dfab3c8afa871ceceff8822b9abe68005e22576d47a6f"));
-        assert(genesis.hashMerkleRoot == uint256S("0x69bb62a0f72c83b38ef6539987cf6c4da5b8e57ac7ecede490a7cefc171e7421"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000a867c51c481819d51fbb38bb48e38dd0f0312530410f1ffb9c46022242b"));
+        assert(genesis.hashMerkleRoot == uint256S("0x035340302126648f241f089a37aab7384014eef9f5fd0dffc1c4dcacae97cb39"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        vSeeds.push_back(CDNSSeedData("nodes.sktx.io","nodes.sktx.io"));
-        vSeeds.push_back(CDNSSeedData("nodes.monetaryunit.org","nodes.monetaryunit.org"));
-        vSeeds.push_back(CDNSSeedData("nodes.myskt.com","nodes.myskt.com"));
-        vSeeds.push_back(CDNSSeedData("nodes.cryptophi.com","nodes.cryptophi.com"));
+        vSeeds.push_back(CDNSSeedData("www.superskynet.com", "47.52.45.101"));
 
 
-
-        // MonetaryUnit addresses start with 'G'
+        // SKT addresses start with 'G'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,38);
-        // MonetaryUnit script addresses start with '8' or '9'
+        // SKT script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
-        // MonetaryUnit private keys start with 'S' or 'T'
+        // SKT private keys start with 'S' or 'T'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,64);
 
-        // Testnet MonetaryUnit BIP32 pubkeys
+        // Testnet SKT BIP32 pubkeys
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet MonetaryUnit BIP32 prvkeys
+        // Testnet SKT BIP32 prvkeys
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
 
-        // Testnet MonetaryUnit BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet SKT BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -260,12 +258,12 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x0")),
+            ( 0, uint256S("0x00000a867c51c481819d51fbb38bb48e38dd0f0312530410f1ffb9c46022242b")),
 
-            1483076495, // * UNIX timestamp of last checkpoint block
-            168590,     // * total number of transactions between genesis and last checkpoint
+            //1483076495, // * UNIX timestamp of last checkpoint block
+            //168590,     // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            500         // * estimated number of transactions per day after checkpoint
+            //500         // * estimated number of transactions per day after checkpoint
         };
 
     }
@@ -323,11 +321,11 @@ public:
         nPruneAfterHeight = 1000;
 
 
-        genesis = CreateGenesisBlock(1498253597, 633385 , 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1499650125, 69730, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000014536730b6914fb4ce0f3f53c3d204b6602d2637ac83a17eacb13725b53"));
-        assert(genesis.hashMerkleRoot == uint256S("0x69bb62a0f72c83b38ef6539987cf6c4da5b8e57ac7ecede490a7cefc171e7421"));
-
+        assert(consensus.hashGenesisBlock == uint256S("0x00000a867c51c481819d51fbb38bb48e38dd0f0312530410f1ffb9c46022242b"));
+		assert(genesis.hashMerkleRoot == uint256S("0x035340302126648f241f089a37aab7384014eef9f5fd0dffc1c4dcacae97cb39"));
+        
         vFixedSeeds.clear();
         vSeeds.clear();
 
@@ -341,25 +339,25 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x0")),
-            0,
-            0,
-            0
+            ( 0, uint256S("0x00000a867c51c481819d51fbb38bb48e38dd0f0312530410f1ffb9c46022242b")),
+            //0,
+            //0,
+            //0
         };
 
-        // MonetaryUnit addresses start with 'R'
+        // SKT addresses start with 'R'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,61);
-        // MonetaryUnit script addresses start with 'U' or 'V'
+        // SKT script addresses start with 'U' or 'V'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,69);
-        // MonetaryUnit private keys start with 'Q' or 'R'
+        // SKT private keys start with 'Q' or 'R'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,59);
 
-        // Regtest MonetaryUnit BIP32 pubkeys start with
+        // Regtest SKT BIP32 pubkeys start with
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Regtest MonetaryUnit BIP32 prvkeys start with
+        // Regtest SKT BIP32 prvkeys start with
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
 
-        // Regtest MonetaryUnit BIP44 coin type is '1' (All coin's testnet default)
+        // Regtest SKT BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
    }
 };

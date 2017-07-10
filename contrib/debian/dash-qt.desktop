@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=MonetaryUnit
-Comment=MonetaryUnit P2P Cryptocurrency
-Comment[fr]=MonetaryUnit, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=MonetaryUnit, eşten eşe kriptografik sanal para birimi
+Name=SKT
+Comment=SKT P2P Cryptocurrency
+Comment[fr]=SKT, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SKT, eşten eşe kriptografik sanal para birimi
 Exec=skt-qt %u
 Terminal=false
 Type=Application

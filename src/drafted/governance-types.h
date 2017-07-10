@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // MonetaryUnitNetwork - is the root node
-    MonetaryUnitNetwork = 1000,
-    MonetaryUnitNetworkVariable = 1001,
+    // SKTNetwork - is the root node
+    SKTNetwork = 1000,
+    SKTNetworkVariable = 1001,
     Category = 1002,
 
     // Actors

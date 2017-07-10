@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2014-2017 The MonetaryUnit Core developers
+// Copyright (c) 2014-2017 The SKT Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -244,11 +244,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop MonetaryUnit Core server.");
+            "\nStop SKT Core server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "MonetaryUnit Core server stopping";
+    return "SKT Core server stopping";
 }
 
 /**
@@ -343,7 +343,7 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "resendwallettransactions", &resendwallettransactions, true},
 #endif
 
-    /* MonetaryUnit features */
+    /* SKT features */
     { "skt",               "masternode",             &masternode,             true  },
     { "skt",               "masternodelist",         &masternodelist,         true  },
     { "skt",               "masternodebroadcast",    &masternodebroadcast,    true  },

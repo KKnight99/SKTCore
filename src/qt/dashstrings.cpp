@@ -42,7 +42,7 @@ QT_TRANSLATE_NOOP("skt-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("skt-core", ""
-"Cannot obtain a lock on data directory %s. MonetaryUnit Core is probably already "
+"Cannot obtain a lock on data directory %s. SKT Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("skt-core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
@@ -51,7 +51,7 @@ QT_TRANSLATE_NOOP("skt-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("skt-core", ""
-"Disable all MonetaryUnit specific functionality (Masternodes, PrivateSend, "
+"Disable all SKT specific functionality (Masternodes, PrivateSend, "
 "InstantSend, Governance) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("skt-core", ""
 "Discover own IP addresses (default: 1 when listening and no -externalip or -"
@@ -149,7 +149,7 @@ QT_TRANSLATE_NOOP("skt-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("skt-core", ""
 "Please check that your computer's date and time are correct! If your clock "
-"is wrong MonetaryUnit Core will not work properly."),
+"is wrong SKT Core will not work properly."),
 QT_TRANSLATE_NOOP("skt-core", ""
 "PrivateSend uses exact denominated amounts to send funds, you might simply "
 "need to anonymize some more coins."),
@@ -212,7 +212,7 @@ QT_TRANSLATE_NOOP("skt-core", ""
 "Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = "
 "no limit (default: %d)"),
 QT_TRANSLATE_NOOP("skt-core", ""
-"Unable to bind to %s on this computer. MonetaryUnit Core is probably already running."),
+"Unable to bind to %s on this computer. SKT Core is probably already running."),
 QT_TRANSLATE_NOOP("skt-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("skt-core", ""
@@ -313,7 +313,7 @@ QT_TRANSLATE_NOOP("skt-core", "Connect to KeePassHttp on port <port> (default: %
 QT_TRANSLATE_NOOP("skt-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("skt-core", "Connection options:"),
 QT_TRANSLATE_NOOP("skt-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("skt-core", "Copyright (C) 2014-%i The MonetaryUnit Core Developers"),
+QT_TRANSLATE_NOOP("skt-core", "Copyright (C) 2014-%i The SKT Core Developers"),
 QT_TRANSLATE_NOOP("skt-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("skt-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("skt-core", "Debugging/Testing options:"),
@@ -336,7 +336,7 @@ QT_TRANSLATE_NOOP("skt-core", "Error initializing wallet database environment %s
 QT_TRANSLATE_NOOP("skt-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("skt-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("skt-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("skt-core", "Error loading wallet.dat: Wallet requires newer version of MonetaryUnit Core"),
+QT_TRANSLATE_NOOP("skt-core", "Error loading wallet.dat: Wallet requires newer version of SKT Core"),
 QT_TRANSLATE_NOOP("skt-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("skt-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("skt-core", "Error"),
@@ -359,7 +359,7 @@ QT_TRANSLATE_NOOP("skt-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("skt-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("skt-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("skt-core", "Information"),
-QT_TRANSLATE_NOOP("skt-core", "Initialization sanity check failed. MonetaryUnit Core is shutting down."),
+QT_TRANSLATE_NOOP("skt-core", "Initialization sanity check failed. SKT Core is shutting down."),
 QT_TRANSLATE_NOOP("skt-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("skt-core", "InstantSend options:"),
 QT_TRANSLATE_NOOP("skt-core", "Insufficient funds."),
@@ -508,7 +508,7 @@ QT_TRANSLATE_NOOP("skt-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("skt-core", "Very low number of keys left: %d"),
 QT_TRANSLATE_NOOP("skt-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("skt-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("skt-core", "Wallet needed to be rewritten: restart MonetaryUnit Core to complete"),
+QT_TRANSLATE_NOOP("skt-core", "Wallet needed to be rewritten: restart SKT Core to complete"),
 QT_TRANSLATE_NOOP("skt-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("skt-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("skt-core", "Warning"),

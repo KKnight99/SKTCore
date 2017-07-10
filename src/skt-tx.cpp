@@ -52,10 +52,10 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("MonetaryUnit Core mue-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("SKT Core skt-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  mue-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded mue transaction") + "\n" +
-              "  mue-tx [options] -create [commands]   " + _("Create hex-encoded mue transaction") + "\n" +
+              "  skt-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded skt transaction") + "\n" +
+              "  skt-tx [options] -create [commands]   " + _("Create hex-encoded skt transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -609,7 +609,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded mue transaction
+            // param: hex-encoded skt transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-")                 // "-" implies standard input
                 strHexTx = readStdin();

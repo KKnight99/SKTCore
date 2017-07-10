@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.skt.MonetaryUnit-Qt";
+        return @"org.skt.SKT-Qt";
     } else {
         return [self __bundleIdentifier];
     }

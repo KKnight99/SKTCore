@@ -78,13 +78,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your MonetaryUnit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your MonetaryUnit addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your SKT addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your SKT addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your MonetaryUnit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your MonetaryUnit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your SKT addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your SKT addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -214,8 +214,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MUE&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MUE&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKT&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKT&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="+57"/>
-        <source>MonetaryUnit Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mues from being stolen by malware infecting your computer.</source>
-        <translation>MonetaryUnit Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mues from being stolen by malware infecting your computer.</translation>
+        <source>SKT Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your skts from being stolen by malware infecting your computer.</source>
+        <translation>SKT Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your skts from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -309,8 +309,8 @@
     <message>
         <location filename="../bitcoingui.cpp" line="+127"/>
         <location line="+919"/>
-        <source>MonetaryUnit Core</source>
-        <translation>MonetaryUnit Core</translation>
+        <source>SKT Core</source>
+        <translation>SKT Core</translation>
     </message>
     <message>
         <location line="-910"/>
@@ -339,8 +339,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a MonetaryUnit address</source>
-        <translation>Send coins to a MonetaryUnit address</translation>
+        <source>Send coins to a SKT address</source>
+        <translation>Send coins to a SKT address</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -349,8 +349,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and mue: URIs)</source>
-        <translation>Request payments (generates QR codes and mue: URIs)</translation>
+        <source>Request payments (generates QR codes and skt: URIs)</source>
+        <translation>Request payments (generates QR codes and skt: URIs)</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -384,13 +384,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About MonetaryUnit Core</source>
-        <translation>&amp;About MonetaryUnit Core</translation>
+        <source>&amp;About SKT Core</source>
+        <translation>&amp;About SKT Core</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about MonetaryUnit Core</source>
-        <translation>Show information about MonetaryUnit Core</translation>
+        <source>Show information about SKT Core</source>
+        <translation>Show information about SKT Core</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -469,8 +469,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign messages with your MonetaryUnit addresses to prove you own them</source>
-        <translation>Sign messages with your MonetaryUnit addresses to prove you own them</translation>
+        <source>Sign messages with your SKT addresses to prove you own them</source>
+        <translation>Sign messages with your SKT addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -479,8 +479,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Verify messages to ensure they were signed with specified MonetaryUnit addresses</source>
-        <translation>Verify messages to ensure they were signed with specified MonetaryUnit addresses</translation>
+        <source>Verify messages to ensure they were signed with specified SKT addresses</source>
+        <translation>Verify messages to ensure they were signed with specified SKT addresses</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -574,8 +574,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a mue: URI or payment request</source>
-        <translation>Open a mue: URI or payment request</translation>
+        <source>Open a skt: URI or payment request</source>
+        <translation>Open a skt: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -584,8 +584,8 @@
     </message>
     <message>
         <location line="+267"/>
-        <source>MonetaryUnit Core client</source>
-        <translation>MonetaryUnit Core client</translation>
+        <source>SKT Core client</source>
+        <translation>SKT Core client</translation>
     </message>
     <message>
         <location line="+334"/>
@@ -619,8 +619,8 @@
     </message>
     <message numerus="yes">
         <location line="+347"/>
-        <source>%n active connection(s) to MonetaryUnit network</source>
-        <translation><numerusform>%n active connection to MonetaryUnit network</numerusform><numerusform>%n active connections to MonetaryUnit network</numerusform></translation>
+        <source>%n active connection(s) to SKT network</source>
+        <translation><numerusform>%n active connection to SKT network</numerusform><numerusform>%n active connections to SKT network</numerusform></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -654,8 +654,8 @@
     </message>
     <message>
         <location line="-567"/>
-        <source>Modify configuration options for MonetaryUnit Core</source>
-        <translation>Modify configuration options for MonetaryUnit Core</translation>
+        <source>Modify configuration options for SKT Core</source>
+        <translation>Modify configuration options for SKT Core</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -674,8 +674,8 @@
     </message>
     <message>
         <location line="+20"/>
-        <source>Show the MonetaryUnit Core help message to get a list with possible MonetaryUnit Core command-line options</source>
-        <translation>Show the MonetaryUnit Core help message to get a list with possible MonetaryUnit Core command-line options</translation>
+        <source>Show the SKT Core help message to get a list with possible SKT Core command-line options</source>
+        <translation>Show the SKT Core help message to get a list with possible SKT Core command-line options</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1164,13 +1164,13 @@
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 MUE</source>
-        <translation>Use 2 separate masternodes to mix funds up to 1000 MUE</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 SKT</source>
+        <translation>Use 2 separate masternodes to mix funds up to 1000 SKT</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 MUE</source>
-        <translation>Use 8 separate masternodes to mix funds up to 1000 MUE</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 SKT</source>
+        <translation>Use 8 separate masternodes to mix funds up to 1000 SKT</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1179,18 +1179,18 @@
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 MUE to anonymize 1000 MUE</source>
-        <translation>This option is the quickest and will cost about ~0.025 MUE to anonymize 1000 MUE</translation>
+        <source>This option is the quickest and will cost about ~0.025 SKT to anonymize 1000 SKT</source>
+        <translation>This option is the quickest and will cost about ~0.025 SKT to anonymize 1000 SKT</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 MUE to anonymize 1000 MUE</source>
-        <translation>This option is moderately fast and will cost about 0.05 MUE to anonymize 1000 MUE</translation>
+        <source>This option is moderately fast and will cost about 0.05 SKT to anonymize 1000 SKT</source>
+        <translation>This option is moderately fast and will cost about 0.05 SKT to anonymize 1000 SKT</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>0.1 MUE per 1000 MUE you anonymize.</source>
-        <translation>0.1 MUE per 1000 MUE you anonymize.</translation>
+        <source>0.1 SKT per 1000 SKT you anonymize.</source>
+        <translation>0.1 SKT per 1000 SKT you anonymize.</translation>
     </message>
     <message>
         <location line="-13"/>
@@ -1206,18 +1206,18 @@
     </message>
     <message>
         <location line="-29"/>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening MonetaryUnit&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening MonetaryUnit&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SKT&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SKT&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening MonetaryUnit&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening MonetaryUnit&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SKT&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SKT&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening MonetaryUnit&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening MonetaryUnit&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SKT&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SKT&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1269,8 +1269,8 @@
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid MonetaryUnit address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid MonetaryUnit address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SKT address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid SKT address.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1320,8 +1320,8 @@
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+37"/>
-        <source>MonetaryUnit Core</source>
-        <translation>MonetaryUnit Core</translation>
+        <source>SKT Core</source>
+        <translation>SKT Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1336,8 +1336,8 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About MonetaryUnit Core</source>
-        <translation>About MonetaryUnit Core</translation>
+        <source>About SKT Core</source>
+        <translation>About SKT Core</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1381,8 +1381,8 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the MonetaryUnit in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 MUE, 0.1 MUE, 1 MUE and 10 MUE -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://monetaryunit.org/wiki/display/DOC/PrivateSend&quot;&gt;https://monetaryunit.org/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the MonetaryUnit in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 MUE, 0.1 MUE, 1 MUE and 10 MUE -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://monetaryunit.org/wiki/display/DOC/PrivateSend&quot;&gt;https://monetaryunit.org/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the SKT in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SKT, 0.1 SKT, 1 SKT and 10 SKT -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://monetaryunit.org/wiki/display/DOC/PrivateSend&quot;&gt;https://monetaryunit.org/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the SKT in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SKT, 0.1 SKT, 1 SKT and 10 SKT -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://monetaryunit.org/wiki/display/DOC/PrivateSend&quot;&gt;https://monetaryunit.org/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
     <message>
         <location line="-50"/>
@@ -1409,18 +1409,18 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to MonetaryUnit Core.</source>
-        <translation>Welcome to MonetaryUnit Core.</translation>
+        <source>Welcome to SKT Core.</source>
+        <translation>Welcome to SKT Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where MonetaryUnit Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where MonetaryUnit Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where SKT Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where SKT Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>MonetaryUnit Core will download and store a copy of the MonetaryUnit block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>MonetaryUnit Core will download and store a copy of the MonetaryUnit block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>SKT Core will download and store a copy of the SKT block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SKT Core will download and store a copy of the SKT block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1434,8 +1434,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+88"/>
-        <source>MonetaryUnit Core</source>
-        <translation>MonetaryUnit Core</translation>
+        <source>SKT Core</source>
+        <translation>SKT Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1675,8 +1675,8 @@
     </message>
     <message>
         <location line="+155"/>
-        <source>Amount of MonetaryUnit to keep anonymized</source>
-        <translation>Amount of MonetaryUnit to keep anonymized</translation>
+        <source>Amount of SKT to keep anonymized</source>
+        <translation>Amount of SKT to keep anonymized</translation>
     </message>
     <message>
         <location line="-119"/>
@@ -1685,13 +1685,13 @@
     </message>
     <message>
         <location line="-104"/>
-        <source>Automatically start MonetaryUnit Core after logging in to the system.</source>
-        <translation>Automatically start MonetaryUnit Core after logging in to the system.</translation>
+        <source>Automatically start SKT Core after logging in to the system.</source>
+        <translation>Automatically start SKT Core after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MonetaryUnit Core on system login</source>
-        <translation>&amp;Start MonetaryUnit Core on system login</translation>
+        <source>&amp;Start SKT Core on system login</source>
+        <translation>&amp;Start SKT Core on system login</translation>
     </message>
     <message>
         <location line="+123"/>
@@ -1750,8 +1750,8 @@
     </message>
     <message>
         <location line="+60"/>
-        <source>Automatically open the MonetaryUnit Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the MonetaryUnit Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the SKT Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the SKT Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1765,8 +1765,8 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the MonetaryUnit network through a SOCKS5 proxy.</source>
-        <translation>Connect to the MonetaryUnit network through a SOCKS5 proxy.</translation>
+        <source>Connect to the SKT network through a SOCKS5 proxy.</source>
+        <translation>Connect to the SKT network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1780,8 +1780,8 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MonetaryUnit Core.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting MonetaryUnit Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SKT Core.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting SKT Core.</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -1877,8 +1877,8 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the MonetaryUnit network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connect to the MonetaryUnit network through a separate SOCKS5 proxy for Tor hidden services.</translation>
+        <source>Connect to the SKT network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Connect to the SKT network through a separate SOCKS5 proxy for Tor hidden services.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1918,9 +1918,9 @@
     <message>
         <location line="+34"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/mue/</source>
+https://www.transifex.com/projects/p/skt/</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/mue/</translation>
+https://www.transifex.com/projects/p/skt/</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -2020,8 +2020,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <location line="+50"/>
         <location line="+355"/>
         <location line="+258"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MonetaryUnit network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the MonetaryUnit network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SKT network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the SKT network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-364"/>
@@ -2152,8 +2152,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 MUE / 0 Rounds</source>
-        <translation>0 MUE / 0 Rounds</translation>
+        <source>0 SKT / 0 Rounds</source>
+        <translation>0 SKT / 0 Rounds</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2382,8 +2382,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="-402"/>
-        <source>Cannot start mue: click-to-pay handler</source>
-        <translation>Cannot start mue: click-to-pay handler</translation>
+        <source>Cannot start skt: click-to-pay handler</source>
+        <translation>Cannot start skt: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+103"/>
@@ -2414,8 +2414,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid MonetaryUnit address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid MonetaryUnit address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid SKT address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid SKT address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2521,8 +2521,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+119"/>
-        <source>Enter a MonetaryUnit address (e.g. %1)</source>
-        <translation>Enter a MonetaryUnit address (e.g. %1)</translation>
+        <source>Enter a SKT address (e.g. %1)</source>
+        <translation>Enter a SKT address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+857"/>
@@ -2722,8 +2722,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Open the MonetaryUnit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the MonetaryUnit Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the SKT Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the SKT Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -2990,8 +2990,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+148"/>
-        <source>Welcome to the MonetaryUnit Core RPC console.</source>
-        <translation>Welcome to the MonetaryUnit Core RPC console.</translation>
+        <source>Welcome to the SKT Core RPC console.</source>
+        <translation>Welcome to the SKT Core RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3080,8 +3080,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MonetaryUnit network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MonetaryUnit network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SKT network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SKT network.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3096,8 +3096,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="-14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the MonetaryUnit network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the MonetaryUnit network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SKT network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SKT network.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3419,8 +3419,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for mue transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for mue transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for skt transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for skt transactions than the network can process.</translation>
     </message>
     <message>
         <location line="-59"/>
@@ -3675,8 +3675,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+229"/>
-        <source>Warning: Invalid MonetaryUnit address</source>
-        <translation>Warning: Invalid MonetaryUnit address</translation>
+        <source>Warning: Invalid SKT address</source>
+        <translation>Warning: Invalid SKT address</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3703,8 +3703,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The MonetaryUnit address to send the payment to</source>
-        <translation>The MonetaryUnit address to send the payment to</translation>
+        <source>The SKT address to send the payment to</source>
+        <translation>The SKT address to send the payment to</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3752,8 +3752,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="-1046"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of MonetaryUnit than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of MonetaryUnit than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of SKT than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of SKT than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3767,8 +3767,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the mue: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MonetaryUnit network.</source>
-        <translation>A message that was attached to the mue: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MonetaryUnit network.</translation>
+        <source>A message that was attached to the skt: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SKT network.</source>
+        <translation>A message that was attached to the skt: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SKT network.</translation>
     </message>
     <message>
         <location line="+433"/>
@@ -3802,8 +3802,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+119"/>
-        <source>MonetaryUnit Core is shutting down...</source>
-        <translation>MonetaryUnit Core is shutting down...</translation>
+        <source>SKT Core is shutting down...</source>
+        <translation>SKT Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3825,13 +3825,13 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive MonetaryUnit sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>You can sign messages/agreements with your addresses to prove you can receive MonetaryUnit sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive SKT sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>You can sign messages/agreements with your addresses to prove you can receive SKT sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The MonetaryUnit address to sign the message with</source>
-        <translation>The MonetaryUnit address to sign the message with</translation>
+        <source>The SKT address to sign the message with</source>
+        <translation>The SKT address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3872,8 +3872,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+17"/>
-        <source>Sign the message to prove you own this MonetaryUnit address</source>
-        <translation>Sign the message to prove you own this MonetaryUnit address</translation>
+        <source>Sign the message to prove you own this SKT address</source>
+        <translation>Sign the message to prove you own this SKT address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3903,13 +3903,13 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The MonetaryUnit address the message was signed with</source>
-        <translation>The MonetaryUnit address the message was signed with</translation>
+        <source>The SKT address the message was signed with</source>
+        <translation>The SKT address the message was signed with</translation>
     </message>
     <message>
         <location line="+33"/>
-        <source>Verify the message to ensure it was signed with the specified MonetaryUnit address</source>
-        <translation>Verify the message to ensure it was signed with the specified MonetaryUnit address</translation>
+        <source>Verify the message to ensure it was signed with the specified SKT address</source>
+        <translation>Verify the message to ensure it was signed with the specified SKT address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3997,8 +3997,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+45"/>
-        <source>MonetaryUnit Core</source>
-        <translation>MonetaryUnit Core</translation>
+        <source>SKT Core</source>
+        <translation>SKT Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4012,8 +4012,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The MonetaryUnit Core developers</source>
-        <translation>The MonetaryUnit Core developers</translation>
+        <source>The SKT Core developers</source>
+        <translation>The SKT Core developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+21"/>
@@ -4665,8 +4665,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     <message>
         <location line="-28"/>
         <location line="+12"/>
-        <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 MUE.</source>
-        <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 MUE.</translation>
+        <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 SKT.</source>
+        <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 SKT.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4723,16 +4723,16 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
 </context>
 <context>
-    <name>mue-core</name>
+    <name>skt-core</name>
     <message>
-        <location filename="../muestrings.cpp" line="+34"/>
+        <location filename="../sktstrings.cpp" line="+34"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. MonetaryUnit Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. MonetaryUnit Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. SKT Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. SKT Core is probably already running.</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -4781,8 +4781,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. MonetaryUnit Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. MonetaryUnit Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. SKT Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. SKT Core is probably already running.</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -5076,8 +5076,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+17"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 MUE.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 1000 MUE.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 SKT.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 1000 SKT.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5131,8 +5131,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The MonetaryUnit Core Developers</source>
-        <translation>Copyright (C) 2014-%i The MonetaryUnit Core Developers</translation>
+        <source>Copyright (C) 2014-%i The SKT Core Developers</source>
+        <translation>Copyright (C) 2014-%i The SKT Core Developers</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5146,8 +5146,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MonetaryUnit Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of MonetaryUnit Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SKT Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of SKT Core</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -5201,8 +5201,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. MonetaryUnit Core is shutting down.</source>
-        <translation>Initialization sanity check failed. MonetaryUnit Core is shutting down.</translation>
+        <source>Initialization sanity check failed. SKT Core is shutting down.</source>
+        <translation>Initialization sanity check failed. SKT Core is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5491,8 +5491,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Wallet needed to be rewritten: restart MonetaryUnit Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart MonetaryUnit Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart SKT Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart SKT Core to complete</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -5546,8 +5546,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Keep N MUE anonymized (default: %u)</source>
-        <translation>Keep N MUE anonymized (default: %u)</translation>
+        <source>Keep N SKT anonymized (default: %u)</source>
+        <translation>Keep N SKT anonymized (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5556,8 +5556,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="-328"/>
-        <source>Disable all MonetaryUnit specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Disable all MonetaryUnit specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
+        <source>Disable all SKT specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Disable all SKT specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5621,8 +5621,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 MUE.</source>
-        <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 MUE.</translation>
+        <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 SKT.</source>
+        <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 SKT.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5656,8 +5656,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong MonetaryUnit Core will not work properly.</source>
-        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong MonetaryUnit Core will not work properly.</translation>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong SKT Core will not work properly.</source>
+        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong SKT Core will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5731,8 +5731,8 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 MUE.</source>
-        <translation>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 MUE.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 SKT.</source>
+        <translation>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 SKT.</translation>
     </message>
     <message>
         <location line="+6"/>

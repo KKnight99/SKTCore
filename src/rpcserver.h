@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * MonetaryUnit RPC command dispatcher.
+ * SKT RPC command dispatcher.
  */
 class CRPCTable
 {

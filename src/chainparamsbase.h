@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between skt-cli and sktd)
- * of a given instance of the MonetaryUnit system.
+ * of a given instance of the SKT system.
  */
 class CBaseChainParams
 {

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "MonetaryUnit"
-            VALUE "FileDescription",    "mue-cli (JSON-RPC client for MonetaryUnit Core)"
+            VALUE "CompanyName",        "SKT"
+            VALUE "FileDescription",    "sktd (SKT node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "mue-cli"
+            VALUE "InternalName",       "sktd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "mue-cli.exe"
-            VALUE "ProductName",        "mue-cli"
+            VALUE "OriginalFilename",   "sktd.exe"
+            VALUE "ProductName",        "sktd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

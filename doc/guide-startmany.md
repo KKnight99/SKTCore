@@ -135,7 +135,7 @@ You can confirm that remote server is on the correct block by issuing
 
 ```skt-cli getinfo```
 
-and comparing with the official explorer at https://explorer.skt.org/chain/MonetaryUnit
+and comparing with the official explorer at https://explorer.skt.org/chain/SKT
 
 ### Local
 

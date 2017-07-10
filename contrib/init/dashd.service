@@ -1,5 +1,5 @@
 [Unit]
-Description=MonetaryUnit's distributed currency daemon
+Description=SKT's distributed currency daemon
 After=network.target
 
 [Service]

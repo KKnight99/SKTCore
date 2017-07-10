@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven MonetaryUnit tests.
+Utilities to generate test vectors for the data-driven SKT tests.
 
 Usage: 
 

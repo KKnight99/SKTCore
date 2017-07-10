@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 	
-	CMonetaryUnitNetwork: SKT NETWORK (ROOT)
+	CSKTNetwork: SKT NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CMonetaryUnitProject> vecProjects;
+		vector<CSKTProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CMonetaryUnitProject:
+	CSKTProject:
 	has:
 		name
 		employees

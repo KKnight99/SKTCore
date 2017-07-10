@@ -148,7 +148,7 @@ Thanks to everyone who directly contributed to this release:
 - Gregory Maxwell
 - Jonas Schnelli
 - J Ross Nicoll
-- Luke MonetaryUnitjr
+- Luke SKTjr
 - Pavel Vasin
 - Pieter Wuille
 - randy-waterhouse

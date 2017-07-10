@@ -62,12 +62,12 @@
         <translation>Adres odbiorczy</translation>
     </message>
     <message>
-        <source>These are your MonetaryUnit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy MonetaryUnit na które wysyłasz płatności. Zawsze upewnij się, że kwota i adres są prawidłowe zanim wyślesz monety.</translation>
+        <source>These are your SKT addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To są twoje adresy SKT na które wysyłasz płatności. Zawsze upewnij się, że kwota i adres są prawidłowe zanim wyślesz monety.</translation>
     </message>
     <message>
-        <source>These are your MonetaryUnit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy do otrzymywania MonetaryUnitów. Zaleca się aby stworzyć nowy adres dla każdej transakcji</translation>
+        <source>These are your SKT addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To są twoje adresy do otrzymywania SKTów. Zaleca się aby stworzyć nowy adres dla każdej transakcji</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potwierdź szyfrowanie portfela</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MUE&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeśli zaszyfrujesz swój portfel i zgubisz swoje hasło, &lt;b&gt;STRACISZ WSZYSTKIE MONETY MUE&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKT&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeśli zaszyfrujesz swój portfel i zgubisz swoje hasło, &lt;b&gt;STRACISZ WSZYSTKIE MONETY SKT&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-        <source>MonetaryUnit will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mues from being stolen by malware infecting your computer.</source>
-        <translation>MonetaryUnit zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
+        <source>SKT will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your skts from being stolen by malware infecting your computer.</source>
+        <translation>SKT zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>MonetaryUnit Core</source>
-        <translation>MonetaryUnit Core</translation>
+        <source>SKT Core</source>
+        <translation>SKT Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>Wyślij</translation>
     </message>
     <message>
-        <source>Send coins to a MonetaryUnit address</source>
-        <translation>Wyślij monety na adres MonetaryUnit</translation>
+        <source>Send coins to a SKT address</source>
+        <translation>Wyślij monety na adres SKT</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>Odbie&amp;rz</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and mue: URIs)</source>
-        <translation>Poproś o płatności (generuje kod QR oraz mue: link)</translation>
+        <source>Request payments (generates QR codes and skt: URIs)</source>
+        <translation>Poproś o płatności (generuje kod QR oraz skt: link)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Zamknij program</translation>
     </message>
     <message>
-        <source>&amp;About MonetaryUnit Core</source>
-        <translation>&amp;O MonetaryUnit Core</translation>
+        <source>&amp;About SKT Core</source>
+        <translation>&amp;O SKT Core</translation>
     </message>
     <message>
-        <source>Show information about MonetaryUnit Core</source>
-        <translation>Pokaż informacje o MonetaryUnit Core</translation>
+        <source>Show information about SKT Core</source>
+        <translation>Pokaż informacje o SKT Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opcje...</translation>
     </message>
     <message>
-        <source>Modify configuration options for MonetaryUnit</source>
-        <translation>Zmień opcje konfiguracji dla MonetaryUnit</translation>
+        <source>Modify configuration options for SKT</source>
+        <translation>Zmień opcje konfiguracji dla SKT</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Podpisz wiado&amp;mość...</translation>
     </message>
     <message>
-        <source>Sign messages with your MonetaryUnit addresses to prove you own them</source>
-        <translation>Podpisz wiadomości swoim adresem MonetaryUnit aby udowodnić, że jesteś ich właścicielem. </translation>
+        <source>Sign messages with your SKT addresses to prove you own them</source>
+        <translation>Podpisz wiadomości swoim adresem SKT aby udowodnić, że jesteś ich właścicielem. </translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Zweryfikuj wiadomość...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MonetaryUnit addresses</source>
-        <translation>Zweryfikuj wiadomości aby upewnić się, że zostały one podpisane wybranym adresem MonetaryUnit</translation>
+        <source>Verify messages to ensure they were signed with specified SKT addresses</source>
+        <translation>Zweryfikuj wiadomości aby upewnić się, że zostały one podpisane wybranym adresem SKT</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Otwórz URI...</translation>
     </message>
     <message>
-        <source>Open a mue: URI or payment request</source>
-        <translation>Otwórz mue: Link lub żądanie zapłaty</translation>
+        <source>Open a skt: URI or payment request</source>
+        <translation>Otwórz skt: Link lub żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opcje konsoli</translation>
     </message>
     <message>
-        <source>MonetaryUnit Core client</source>
-        <translation>Klient MonetaryUnit Core</translation>
+        <source>SKT Core client</source>
+        <translation>Klient SKT Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizuję dodatkowe dane: %p%</translation>
     </message>
     <message>
-        <source>Show the MonetaryUnit Core help message to get a list with possible MonetaryUnit command-line options</source>
-        <translation>Pokaż wiadomość pomocy MonetaryUnit Core aby otrzymać listę z dostępnymi opcjami linii komend.</translation>
+        <source>Show the SKT Core help message to get a list with possible SKT command-line options</source>
+        <translation>Pokaż wiadomość pomocy SKT Core aby otrzymać listę z dostępnymi opcjami linii komend.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Pasek zakładek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to MonetaryUnit network</source>
-        <translation><numerusform>%n aktywne połączenie do sieci MonetaryUnit</numerusform><numerusform>%n aktywne połączenia do sieci MonetaryUnit</numerusform><numerusform>%n aktywne połączenia do sieci MonetaryUnit</numerusform></translation>
+        <source>%n active connection(s) to SKT network</source>
+        <translation><numerusform>%n aktywne połączenie do sieci SKT</numerusform><numerusform>%n aktywne połączenia do sieci SKT</numerusform><numerusform>%n aktywne połączenia do sieci SKT</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -864,28 +864,28 @@ Adres: %4
         <translation>Proszę wybrać poziom bezpieczeństwa.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 MUE</source>
-        <translation>Użyj 2 oddzielnych masternodów aby wymieszać środki max. do 1000 MUE</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 SKT</source>
+        <translation>Użyj 2 oddzielnych masternodów aby wymieszać środki max. do 1000 SKT</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 MUE</source>
-        <translation>Użyj 8 oddzielnych masternodów aby wymieszać środki max. do 1000 MUE</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 SKT</source>
+        <translation>Użyj 8 oddzielnych masternodów aby wymieszać środki max. do 1000 SKT</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Użyj 16 oddzielnych masternodów</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MUE to anonymize 1000 MUE</source>
-        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 MUE za zanonimizowanie 1000 MUE</translation>
+        <source>This option is the quickest and will cost about ~0.025 SKT to anonymize 1000 SKT</source>
+        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 SKT za zanonimizowanie 1000 SKT</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MUE to anonymize 1000 MUE</source>
-        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 MUE za zanonimizowanie 1000 MUE</translation>
+        <source>This option is moderately fast and will cost about 0.05 SKT to anonymize 1000 SKT</source>
+        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 SKT za zanonimizowanie 1000 SKT</translation>
     </message>
     <message>
-        <source>0.1 MUE per 1000 MUE you anonymize.</source>
-        <translation>0.1 MUE za każde 1000 MUE które zanonimizujesz.</translation>
+        <source>0.1 SKT per 1000 SKT you anonymize.</source>
+        <translation>0.1 SKT za każde 1000 SKT które zanonimizujesz.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -896,16 +896,16 @@ Adres: %4
         <translation>Konfiguracja Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening MonetaryUnit's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją MonetaryUnit.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SKT's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją SKT.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening MonetaryUnit's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją MonetaryUnit.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SKT's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją SKT.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening MonetaryUnit's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom maksymalny (%1 oraz 16 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją MonetaryUnit.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SKT's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom maksymalny (%1 oraz 16 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją SKT.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Adres: %4
         <translation>Zmień adres wysyłania</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MonetaryUnit address.</source>
-        <translation>Wprowadzony adres "%1" nie jest właściwym adresem MonetaryUnit.</translation>
+        <source>The entered address "%1" is not a valid SKT address.</source>
+        <translation>Wprowadzony adres "%1" nie jest właściwym adresem SKT.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Adres: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MonetaryUnit Core</source>
-        <translation>MonetaryUnit Core</translation>
+        <source>SKT Core</source>
+        <translation>SKT Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Adres: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About MonetaryUnit Core</source>
-        <translation>Informacje o MonetaryUnit Core</translation>
+        <source>About SKT Core</source>
+        <translation>Informacje o SKT Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Adres: %4
         <translation>Witaj</translation>
     </message>
     <message>
-        <source>Welcome to MonetaryUnit Core.</source>
-        <translation>Witaj w MonetaryUnit Core</translation>
+        <source>Welcome to SKT Core.</source>
+        <translation>Witaj w SKT Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MonetaryUnit Core will store its data.</source>
-        <translation>Ponieważ uruchomiłeś ten program po raz pierwszy, możesz wybrać gdzie MonetaryUnit Core będzie przechowywał dane.</translation>
+        <source>As this is the first time the program is launched, you can choose where SKT Core will store its data.</source>
+        <translation>Ponieważ uruchomiłeś ten program po raz pierwszy, możesz wybrać gdzie SKT Core będzie przechowywał dane.</translation>
     </message>
     <message>
-        <source>MonetaryUnit Core will download and store a copy of the MonetaryUnit block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>MonetaryUnit Core ściągnie i przechowa  kopię blockchain na twoim dysku. Co najmniej %1GB danych zostanie zapisanych w tym katalogu, a wraz z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
+        <source>SKT Core will download and store a copy of the SKT block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SKT Core ściągnie i przechowa  kopię blockchain na twoim dysku. Co najmniej %1GB danych zostanie zapisanych w tym katalogu, a wraz z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Adres: %4
         <translation>Użyj wybranego folderu dla danych</translation>
     </message>
     <message>
-        <source>MonetaryUnit Core</source>
-        <translation>MonetaryUnit Core</translation>
+        <source>SKT Core</source>
+        <translation>SKT Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Adres: %4
         <translation>Główne</translation>
     </message>
     <message>
-        <source>Automatically start MonetaryUnit after logging in to the system.</source>
-        <translation>Automatycznie uruchom MonetaryUnit po zalogowaniu się do systemu.</translation>
+        <source>Automatically start SKT after logging in to the system.</source>
+        <translation>Automatycznie uruchom SKT po zalogowaniu się do systemu.</translation>
     </message>
     <message>
-        <source>&amp;Start MonetaryUnit on system login</source>
-        <translation>&amp;Uruchom MonetaryUnit po zalogowaniu się do systemu</translation>
+        <source>&amp;Start SKT on system login</source>
+        <translation>&amp;Uruchom SKT po zalogowaniu się do systemu</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Adres: %4
         <translation>Ta kwota działa jako próg po którego przekroczeniu Darksend zostaje wyłączony.</translation>
     </message>
     <message>
-        <source>Amount of MonetaryUnit to keep anonymized</source>
-        <translation>Ilość MonetaryUnitów, które mają pozostać anonimowe.</translation>
+        <source>Amount of SKT to keep anonymized</source>
+        <translation>Ilość SKTów, które mają pozostać anonimowe.</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Adres: %4
         <translation>Zezwól na przychdzące połączenia</translation>
     </message>
     <message>
-        <source>Connect to the MonetaryUnit network through a SOCKS5 proxy.</source>
-        <translation>Połącz się z siecią MonetaryUnit przez proxy SOCKS5.</translation>
+        <source>Connect to the SKT network through a SOCKS5 proxy.</source>
+        <translation>Połącz się z siecią SKT przez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,7 +1206,7 @@ Adres: %4
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>Automatically open the MonetaryUnit client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the SKT client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatycznie uruchamiaj port klienta Darkcoina na ruterze. To działa tylko jeśli twój ruter wspiera  i ma włączone UPnP.</translation>
     </message>
     <message>
@@ -1258,14 +1258,14 @@ Adres: %4
         <translation>Język &amp;Użytkownika:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MonetaryUnit.</source>
-        <translation>Tutaj można ustawić język interfejsu użytkownika. To ustawienie zostanie zapisane po ponownym uruchomieniu MonetaryUnit.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SKT.</source>
+        <translation>Tutaj można ustawić język interfejsu użytkownika. To ustawienie zostanie zapisane po ponownym uruchomieniu SKT.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/mue/</source>
-        <translation>MonetaryUnit Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
-https://www.transifex.com/projects/p/mue/</translation>
+https://www.transifex.com/projects/p/skt/</source>
+        <translation>SKT Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
+https://www.transifex.com/projects/p/skt/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MonetaryUnit network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje sie z siecią MonetaryUnit jak tylko zostanie ustanowione połączenie, jednakże proces ten jeszcze się nie zakończył.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SKT network after a connection is established, but this process has not completed yet.</source>
+        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje sie z siecią SKT jak tylko zostanie ustanowione połączenie, jednakże proces ten jeszcze się nie zakończył.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1431,8 +1431,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Ilość oraz Rundy:</translation>
     </message>
     <message>
-        <source>0 MUE / 0 Rounds</source>
-        <translation>0 MUE / 0 Rund</translation>
+        <source>0 SKT / 0 Rounds</source>
+        <translation>0 SKT / 0 Rund</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Błąd żądania płatności</translation>
     </message>
     <message>
-        <source>Cannot start mue: click-to-pay handler</source>
-        <translation>Nie można włączyć mue: kliknij-aby-zapłacić ubsługującemu.</translation>
+        <source>Cannot start skt: click-to-pay handler</source>
+        <translation>Nie można włączyć skt: kliknij-aby-zapłacić ubsługującemu.</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Nieprawidłowy adres płatności %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid MonetaryUnit address or malformed URI parameters.</source>
-        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres MonetaryUnit lub niewłaściwe parametry URI</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid SKT address or malformed URI parameters.</source>
+        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres SKT lub niewłaściwe parametry URI</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Ilość</translation>
     </message>
     <message>
-        <source>Enter a MonetaryUnit address (e.g. %1)</source>
-        <translation>Wpisz adres MonetaryUnit (np. %1)</translation>
+        <source>Enter a SKT address (e.g. %1)</source>
+        <translation>Wpisz adres SKT (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,7 +1764,7 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Liczba połączeń</translation>
     </message>
     <message>
-        <source>Open the MonetaryUnit debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the SKT debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Otwiera plik z zapisami debugowania Darkcoina z obecnego katalogu. Może to potrfać kilka sekund w zależności od rozmiaru pliku.</translation>
     </message>
     <message>
@@ -1972,7 +1972,7 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Wyjście:</translation>
     </message>
     <message>
-        <source>Welcome to the MonetaryUnit RPC console.</source>
+        <source>Welcome to the SKT RPC console.</source>
         <translation>Witaj w konsoli RPC Darkcoina</translation>
     </message>
     <message>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Użyj istniejący adres odbiorczy (nie zalecane)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MonetaryUnit network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć MonetaryUnit.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SKT network.</source>
+        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć SKT.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Opcjonalna etykieta do skojarzenia z nowym adresem odbiorczym.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the MonetaryUnit network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć MonetaryUnit.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SKT network.</source>
+        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć SKT.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2292,7 +2292,7 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Jeśli ręcznie ustalona opłata wynosi 1000 Duffów a sama transakcja ma tylko 250 bitów, to opłata jako "za kilobajt" wynosi tylko 250 duffów.&lt;br/&gt; Dzieje się tak dla każdej transakcji poniżej 1000 duffów. W przypadku transakcji większych niż jedn kilobajt opłata jest naliczana od kilobajta.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for mue transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for skt transactions than the network can process.</source>
         <translation>Uiszczanie minimalnej opłaty za transakcję jest ok dopóki ilość transakcji nie przekracza dostępnego miejsca w bloku. &lt;br /&gt;Jednakże, jeśli zaistnieje taka sytuacja w której wysłanych zostaje więcej transakcji niż sieć może przetworzyć, to jest możliwe, że twoja transakcja nigdy nie zostanie potwierdzona.</translation>
     </message>
     <message>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Uiść minimalną opłatę %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid MonetaryUnit address</source>
-        <translation>Ostrzeżenie: adres MonetaryUnit jest nieprawidlowy </translation>
+        <source>Warning: Invalid SKT address</source>
+        <translation>Ostrzeżenie: adres SKT jest nieprawidlowy </translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Zapłać &amp;dla:</translation>
     </message>
     <message>
-        <source>The MonetaryUnit address to send the payment to</source>
-        <translation>Adres MonetaryUnit na który wysłać fundusze</translation>
+        <source>The SKT address to send the payment to</source>
+        <translation>Adres SKT na który wysłać fundusze</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Wiadomość:</translation>
     </message>
     <message>
-        <source>A message that was attached to the mue: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MonetaryUnit network.</source>
-        <translation>Wiadomość, która została dołączona do mue: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ. że sama wiadomość nie zostanie wysłana przez sieć Darkcoina.</translation>
+        <source>A message that was attached to the skt: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SKT network.</source>
+        <translation>Wiadomość, która została dołączona do skt: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ. że sama wiadomość nie zostanie wysłana przez sieć Darkcoina.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/mue/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MonetaryUnit Core is shutting down...</source>
-        <translation>Trwa zamykanie MonetaryUnit Core</translation>
+        <source>SKT Core is shutting down...</source>
+        <translation>Trwa zamykanie SKT Core</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
     </message>
     <message>
-        <source>The MonetaryUnit address to sign the message with</source>
-        <translation>Adres MonetaryUnit do podpisu wiadomości</translation>
+        <source>The SKT address to sign the message with</source>
+        <translation>Adres SKT do podpisu wiadomości</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Kopiuje aktualny podpis do schowka systemowego</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MonetaryUnit address</source>
-        <translation>Podpisz wiadomość aby udowodnić, że jesteś właścicielem adresu MonetaryUnit.</translation>
+        <source>Sign the message to prove you own this SKT address</source>
+        <translation>Podpisz wiadomość aby udowodnić, że jesteś właścicielem adresu SKT.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Wpisz adres podpisujący, podaj wiadomość (upewnij się, że dokładnie skopiujesz wszystkie zakończenia linii, spacje, tabulacje itp.) oraz podpis poniżej by sprawdzić wiadomość. Uważaj by nie dodać więcej do podpisu niż do samej podpisywanej wiadomości by uniknąć ataku man-in-the-middle (człowiek pośrodku)</translation>
     </message>
     <message>
-        <source>The MonetaryUnit address the message was signed with</source>
-        <translation>Adres MonetaryUnit którym wiadomość została podpisana</translation>
+        <source>The SKT address the message was signed with</source>
+        <translation>Adres SKT którym wiadomość została podpisana</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MonetaryUnit address</source>
-        <translation>Zweryfikuj wiadomość aby upewnić się, że została zapisana przez konkretny adres MonetaryUnit</translation>
+        <source>Verify the message to ensure it was signed with the specified SKT address</source>
+        <translation>Zweryfikuj wiadomość aby upewnić się, że została zapisana przez konkretny adres SKT</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/mue/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MonetaryUnit Core</source>
-        <translation>MonetaryUnit Core</translation>
+        <source>SKT Core</source>
+        <translation>SKT Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Deweloperzy Bitcoin Core</translation>
     </message>
     <message>
-        <source>The MonetaryUnit Core developers</source>
-        <translation>Deweloperzy MonetaryUnit Core</translation>
+        <source>The SKT Core developers</source>
+        <translation>Deweloperzy SKT Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3276,8 +3276,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Wyślij płatność</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 MUE.</source>
-        <translation>InstantX jescze nie może przesłać tak wysokich kwot. Obecnie transakcje są ograniczone tylko do %1 MUE:</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 SKT.</source>
+        <translation>InstantX jescze nie może przesłać tak wysokich kwot. Obecnie transakcje są ograniczone tylko do %1 SKT:</translation>
     </message>
 </context>
 <context>
@@ -3320,14 +3320,14 @@ https://www.transifex.com/projects/p/mue/</translation>
     </message>
 </context>
 <context>
-    <name>mue-core</name>
+    <name>skt-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Związany z danym adresem oraz zawsze prowadzący na nim nasłuch.  Użyj [host]:oznaczenie dla IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MonetaryUnit Core is probably already running.</source>
-        <translation>Nie można zablokować katalogu danych %s. Prawdopodobnie MonetaryUnit jest już uruchomiony. </translation>
+        <source>Cannot obtain a lock on data directory %s. SKT Core is probably already running.</source>
+        <translation>Nie można zablokować katalogu danych %s. Prawdopodobnie SKT jest już uruchomiony. </translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,16 +3382,16 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Ta wersja nie jest jeszcze gotowa na oficjalne wydanie - używaj jej na własne ryzyko - nie używaj tej wersji do kopania monet lub do świadczenia usług komercyjnych.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MonetaryUnit Core is probably already running.</source>
-        <translation>Niezdolny do związania z %s na tym komputerze. Prawdopodobnie MonetaryUnit jest już uruchomiony. </translation>
+        <source>Unable to bind to %s on this computer. SKT Core is probably already running.</source>
+        <translation>Niezdolny do związania z %s na tym komputerze. Prawdopodobnie SKT jest już uruchomiony. </translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Nie znaleziono wystarczających denominowanych środków Darksend do wykonania tej transakcji.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 MUE.</source>
-        <translation>Nie znaleziono wystarczającej ilości nie zdenominowanych środków Darksend dla tej transakcji, które nie równają się 1000 MUE</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 SKT.</source>
+        <translation>Nie znaleziono wystarczającej ilości nie zdenominowanych środków Darksend dla tej transakcji, które nie równają się 1000 SKT</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Usuń wszystkie transakcje portfela i odzyskaj tylko te części blockchainu - zeskanuj powonie na starcie.</translation>
     </message>
     <message>
-        <source>Disable all MonetaryUnit specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Wyłącz wszystkie dodatkowe funckje MonetaryUnit (Masternody, Darksend, InstanX, Budżetowanie) (0-1, domyślnie: %u)</translation>
+        <source>Disable all SKT specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Wyłącz wszystkie dodatkowe funckje SKT (Masternody, Darksend, InstanX, Budżetowanie) (0-1, domyślnie: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3634,12 +3634,12 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Błąd: niewspierany argument, znaleziono -socks. Ustawienie wersji SOCKS nie jest już możliwa, wspierane są tylkobramki  proxy SOCKS5.</translation>
     </message>
     <message>
-        <source>Fees (in MUE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Opłaty (MUE/Kb) za retransmisje mniejsze niż ta, uważane są za równoznaczne z brakiem opłat (domyślnie: %s)</translation>
+        <source>Fees (in SKT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Opłaty (SKT/Kb) za retransmisje mniejsze niż ta, uważane są za równoznaczne z brakiem opłat (domyślnie: %s)</translation>
     </message>
     <message>
-        <source>Fees (in MUE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Opłaty (MUE/Kb) mniejsze niż ta, są uważane są za równoznaczne z brakiem opłat za stworzenie transakcji (domyślnie: %s)</translation>
+        <source>Fees (in SKT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Opłaty (SKT/Kb) mniejsze niż ta, są uważane są za równoznaczne z brakiem opłat za stworzenie transakcji (domyślnie: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3710,31 +3710,31 @@ https://www.transifex.com/projects/p/mue/</translation>
         <translation>Produkt ten zawiera oprogramowanie stworzone przez OpenSSL Project do użytku w OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, oprogramowanie krptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use mued, or the -server option to mue-qt, you must set an rpcpassword in the configuration file:
+        <source>To use sktd, or the -server option to skt-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=muerpc
+rpcuser=sktrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "MonetaryUnit Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "SKT Alert" admin@foo.com
 </source>
-        <translation>Aby używać mued, lub opcje -server w kliencie mue-qt, musisz ustawić hasło rpc w pliku konfiguracji:
+        <translation>Aby używać sktd, lub opcje -server w kliencie skt-qt, musisz ustawić hasło rpc w pliku konfiguracji:
 %s
 Zalecane jest abyś użył te o to losowo stworzone hasło
-rpcuser=muerpc
+rpcuser=sktrpc
 rpcpassword=%s
 (Nie musisz pamiętać tego hasła)
 Twoje hasło NIE MOŻE być takie samo jak twój login.
 Jeśli plik ten nie istnieje, stwórz go z uprawnieniami do odczytu tylko przez właściciela.
-Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "MonetaryUnit Alert" admin@foo.com
+Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "SKT Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 MUE.</source>
-        <translation>Niemożliwe jest zlokalizowanie wystarczającej ilości środków dla tej transakcji, które nie są równe 1000 MUE.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 SKT.</source>
+        <translation>Niemożliwe jest zlokalizowanie wystarczającej ilości środków dla tej transakcji, które nie są równe 1000 SKT.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3745,8 +3745,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Uwaga: -maxtxfee jest bardzo wysoka! Tak duże opłaty mogą być uiszczone przy wysłaniu jednej transakcji.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong MonetaryUnit Core will not work properly.</source>
-        <translation>Uwaga: Proszę sprawdzić czy data i czas na twoim komputerze są poprawne! Jeśli twój zegar nie pokazuje prawidłowej godziny to MonetaryUnit może nie działać poprawidłowo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SKT Core will not work properly.</source>
+        <translation>Uwaga: Proszę sprawdzić czy data i czas na twoim komputerze są poprawne! Jeśli twój zegar nie pokazuje prawidłowej godziny to SKT może nie działać poprawidłowo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Prawo autorskie (c) 2009-%i deweloperzy Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The MonetaryUnit Core Developers</source>
-        <translation>Prawa autorskie (C) 2014-%i deweloperzy MonetaryUnit</translation>
+        <source>Copyright (C) 2014-%i The SKT Core Developers</source>
+        <translation>Prawa autorskie (C) 2014-%i deweloperzy SKT</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Błąd w połączeniu z Masternodem.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MonetaryUnit Core</source>
-        <translation>Błą wczytywania wallet.dat: Portfel wymaga nowszej wersji MonetaryUnit</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SKT Core</source>
+        <translation>Błą wczytywania wallet.dat: Portfel wymaga nowszej wersji SKT</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3847,8 +3847,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Błąd: Znaleziono niewspierany argument -tor, użyj -onion.</translation>
     </message>
     <message>
-        <source>Fee (in MUE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Opłata (MUE/kB) do dodania do transakcji, którą chcesz wysłać (domyślnie: %s)</translation>
+        <source>Fee (in SKT/kB) to add to transactions you send (default: %s)</source>
+        <translation>Opłata (SKT/kB) do dodania do transakcji, którą chcesz wysłać (domyślnie: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3903,8 +3903,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Informacja</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. MonetaryUnit Core is shutting down.</source>
-        <translation>Inicjalizacja kontroli poprawności nie powiodła się. Trwa zamykanie MonetaryUnit Core</translation>
+        <source>Initialization sanity check failed. SKT Core is shutting down.</source>
+        <translation>Inicjalizacja kontroli poprawności nie powiodła się. Trwa zamykanie SKT Core</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Użyj UPnP aby zmapować port nasłuchu (domyślnie: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MonetaryUnit Core to complete</source>
-        <translation>Portfel potrzebuje być przepisany: uruchom ponownie MonetaryUnit Core aby zakończyć.</translation>
+        <source>Wallet needed to be rewritten: restart SKT Core to complete</source>
+        <translation>Portfel potrzebuje być przepisany: uruchom ponownie SKT Core aby zakończyć.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4215,8 +4215,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Klucz KeePassHttp dla zaszyfrowanego metodą AES połączenia z KeePass</translation>
     </message>
     <message>
-        <source>Keep N MUE anonymized (default: %u)</source>
-        <translation>Utrzymuj N zanonimizowanych mue (domyślnie: %u)</translation>
+        <source>Keep N SKT anonymized (default: %u)</source>
+        <translation>Utrzymuj N zanonimizowanych skt (domyślnie: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

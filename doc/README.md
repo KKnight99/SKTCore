@@ -1,11 +1,11 @@
-MonetaryUnit Core 0.12.1
+SKT Core 0.12.1
 =====================
 
-This is the official reference wallet for MonetaryUnit digital currency and comprises the backbone of the MonetaryUnit peer-to-peer network. You can [download MonetaryUnit Core](https://www.skt.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for SKT digital currency and comprises the backbone of the SKT peer-to-peer network. You can [download SKT Core](https://www.skt.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run MonetaryUnit on your native platform.
+The following are some helpful notes on how to run SKT on your native platform.
 
 ### Unix
 
@@ -20,18 +20,18 @@ Unpack the files into a directory, and then run skt-qt.exe.
 
 ### OS X
 
-Drag MonetaryUnit-Qt to your applications folder, and then run MonetaryUnit-Qt.
+Drag SKT-Qt to your applications folder, and then run SKT-Qt.
 
 ### Need Help?
 
-* See the [MonetaryUnit documentation](https://monetaryunit.org/wiki/display/DOC)
+* See the [SKT documentation](https://monetaryunit.org/wiki/display/DOC)
 for help and more information.
 * Ask for help on [#sktpay](http://webchat.freenode.net?channels=sktpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=sktpay).
-* Ask for help on the [MonetaryUnitTalk](https://skttalk.org/) forums.
+* Ask for help on the [SKTTalk](https://skttalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build MonetaryUnit Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build SKT Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build MonetaryUnit Core on your nati
 
 Development
 ---------------------
-The MonetaryUnit Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The SKT Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -57,7 +57,7 @@ The MonetaryUnit Core repo's [root README](/README.md) contains relevant informa
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [MonetaryUnitTalk](https://skttalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on the [SKTTalk](https://skttalk.org/) forums, in the Development & Technical Discussion board.
 * Discuss on [#sktpay](http://webchat.freenode.net/?channels=sktpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=sktpay).
 
 ### Miscellaneous

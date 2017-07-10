@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The MonetaryUnit Core developers
+// Copyright (c) 2014-2017 The SKT Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -72,10 +72,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case SKT: return QString("MonetaryUnit");
-            case mSKT: return QString("Milli-MonetaryUnit (1 / 1" THIN_SP_UTF8 "000)");
-            case uSKT: return QString("Micro-MonetaryUnit (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case Munits: return QString("Ten Nano-MonetaryUnit (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case SKT: return QString("SKT");
+            case mSKT: return QString("Milli-SKT (1 / 1" THIN_SP_UTF8 "000)");
+            case uSKT: return QString("Micro-SKT (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case Munits: return QString("Ten Nano-SKT (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -83,10 +83,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case SKT: return QString("TestMonetaryUnits");
-            case mSKT: return QString("Milli-TestMonetaryUnit (1 / 1" THIN_SP_UTF8 "000)");
-            case uSKT: return QString("Micro-TestMonetaryUnit (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case Munits: return QString("Ten Nano-TestMonetaryUnit (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case SKT: return QString("TestSKTs");
+            case mSKT: return QString("Milli-TestSKT (1 / 1" THIN_SP_UTF8 "000)");
+            case uSKT: return QString("Micro-TestSKT (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case Munits: return QString("Ten Nano-TestSKT (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

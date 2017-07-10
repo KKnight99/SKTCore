@@ -57,10 +57,10 @@ void ThreadSendAlert()
     //  Higher numbers mean higher priority
     alert.nPriority     = 5000;
     alert.strComment    = "";
-    alert.strStatusBar  = "URGENT: Upgrade required: see https://www.MonetaryUnit.org";
+    alert.strStatusBar  = "URGENT: Upgrade required: see https://www.SKT.org";
 
     // Set specific client version/versions here. If setSubVer is empty, no filtering on subver is done:
-    // alert.setSubVer.insert(std::string("/MonetaryUnit Core:0.12.0.58/"));
+    // alert.setSubVer.insert(std::string("/SKT Core:0.12.0.58/"));
 
     // Sign
     if(!alert.Sign())

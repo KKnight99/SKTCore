@@ -1,4 +1,4 @@
-MonetaryUnit Core staging tree 1.0.1
+SKT Core staging tree 1.0.1
 ===============================
 
 
@@ -6,17 +6,17 @@ MonetaryUnit Core staging tree 1.0.1
 https://www.monetaryunit.org
 
 
-What is MonetaryUnit?
+What is SKT?
 ----------------
 
-MonetaryUnit is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. MonetaryUnit uses peer-to-peer technology
+SKT is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. SKT uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. MonetaryUnit Core is the name of the open
+are carried out collectively by the network. SKT Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the MonetaryUnit Core software.
+the SKT Core software.
 
 At this stage and while we conclude automated builds setup - precompiled binaries can be fetched from :
      https://drive.google.com/drive/folders/0B7NWoqhWP7wGSWMyRW5xNUpDREE?usp=sharing
@@ -25,7 +25,7 @@ At this stage and while we conclude automated builds setup - precompiled binarie
 License
 -------
 
-MonetaryUnit Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+SKT Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
@@ -33,7 +33,7 @@ Development Process
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
 [Tags](https://github.com/sktcoin/SKTCore/tags) are created to indicate new official,
-stable release versions of MonetaryUnit Core.
+stable release versions of SKT Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -69,7 +69,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[MonetaryUnit Core's Transifex page](https://www.transifex.com/projects/p/skt/).
+[SKT Core's Transifex page](https://www.transifex.com/projects/p/skt/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

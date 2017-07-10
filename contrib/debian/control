@@ -32,10 +32,10 @@ Package: sktd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- MonetaryUnit is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. MonetaryUnit uses peer-to-peer
+ SKT is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. SKT uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. MonetaryUnit Core
+ and issuing money are carried out collectively by the network. SKT Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, sktd, and the CLI tool
@@ -45,22 +45,22 @@ Package: skt-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- MonetaryUnit is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. MonetaryUnit uses peer-to-peer
+ SKT is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. SKT uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. MonetaryUnit Core
+ and issuing money are carried out collectively by the network. SKT Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides MonetaryUnit-Qt, a GUI for MonetaryUnit based on Qt.
+ This package provides SKT-Qt, a GUI for SKT based on Qt.
 
 Package: skt-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- MonetaryUnit is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. MonetaryUnit uses peer-to-peer
+ SKT is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. SKT uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. MonetaryUnit Core
+ and issuing money are carried out collectively by the network. SKT Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides skt-tx, a command-line transaction creation

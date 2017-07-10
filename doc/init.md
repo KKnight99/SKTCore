@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/sktd`  
-Configuration file:  `~/Library/Application Support/MonetaryUnitCore/skt.conf`  
-Data directory:      `~/Library/Application Support/MonetaryUnitCore`
-Lock file:           `~/Library/Application Support/MonetaryUnitCore/.lock`
+Configuration file:  `~/Library/Application Support/SKTCore/skt.conf`  
+Data directory:      `~/Library/Application Support/SKTCore`
+Lock file:           `~/Library/Application Support/SKTCore/.lock`
 
 4. Installing Service Configuration
 -----------------------------------
